@@ -33,12 +33,14 @@ h2 {
 }
 
 .bloc-demoday{
-  margin-bottom: 3em;
+  margin-bottom: 5em;
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .bloc-nina{
   display: flex;
+  margin-bottom: 12em;
 }
 
 .bloc-wagon{
@@ -95,6 +97,7 @@ video{
 iframe {
   border-radius: 2em;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-left: 1em;
 
 }
 
@@ -135,21 +138,30 @@ iframe {
 
 }
 
+.links-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
 .up-page{
   background-color: #1B4543;
   height: 5em;
   border-radius: 1em;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 
 }
 
 .up-page p{
   padding-top: 30px;
+  padding-left: 0.2em;
   color: #FFF2E1;
   font-size: 5.5em;
   font-family: 'Lobster', sans-serif;
@@ -160,7 +172,7 @@ iframe {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
   height: 100%;
 
 }
@@ -233,7 +245,6 @@ button:hover{
   min-height: 15em;
   width: 50%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-  margin-left: 0.5em;
 }
 
 
