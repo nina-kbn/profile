@@ -19,6 +19,8 @@ h1 {
   font-size: 3em;
   font-family: 'Title', sans-serif;
   margin: 2em 0 1.4em 0.5em;
+  text-align: left;
+
 }
 
 h2 {
@@ -148,7 +150,7 @@ h2 {
 .infos-nina {
   background-color: #FFF2E1;
   border-radius: 2em;
-  padding: 1em;
+  padding: 1.3em;
   min-height: 15em;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   margin-left: 1em;
@@ -280,13 +282,12 @@ a:hover {
   }
 
   .up-page p {
-    padding-top: 20px;
+    padding-top: 32px;
     font-size: 4em;
   }
 
   .sections {
     font-size: 1em;
-    width: 6em;
   }
 
   .demo-vid {
@@ -330,18 +331,19 @@ a:hover {
 }
 
 @media only screen and (max-width: 770px) {
-  .up-page {
-    height: 4em;
-  }
-
   .up-page p {
     padding-top: 20px;
     font-size: 4em;
   }
 
   .sections {
-    font-size: 1em;
-    width: 6em;
+    font-size: 0.8em;
+    width: 7.4em;
+  }
+
+  .column-pres {
+    display: flex;
+    flex-direction: column;
   }
 
   .demo-vid {
@@ -350,28 +352,34 @@ a:hover {
   }
 
   .bloc-app {
-    height: 35em;
+    height: 29em;
+    width: 100%;
+    margin-right: 0;
   }
 
   .bloc-story {
-    height: 35em;
+    height: 29em;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1em;
   }
 
   .bloc-demoday {
-    width: 30em;
+    width: 20em;
+  }
+
+  .nina-pres {
+    flex-direction: column;
   }
 
   .bloc-nina {
-    width: 60%;
+    width: 100%;
   }
 
   .infos-nina {
-    width: 30%;
-  }
-
-  .img-nina {
-    width: 10em;
-    height: 10em;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1em ;
   }
 
   .links-down {
@@ -382,4 +390,24 @@ a:hover {
     width: 80%;
   }
 
+  .sections:hover {
+    font-size: 0.9em;
+  }
+}
+
+
+@media only screen and (max-width: 525px) {
+  .links-up {
+    flex-direction: column;
+  }
+
+
+  .sections {
+    font-size: 0.9em;
+    width: 7.4em;
+  }
+
+  .sections:hover {
+    font-size: 0.9em;
+  }
 }
