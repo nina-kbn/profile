@@ -30,6 +30,7 @@ h2 {
 }
 
 .up-page {
+  margin-top: 1em;
   background-color: #1B4543;
   height: 5em;
   border-radius: 1em;
@@ -204,6 +205,13 @@ a {
 a:hover {
   color: #1B4543;
   transition: 0.5s;
+}
+
+@media only screen and (max-width: 1400px){
+  .bloc-demoday {
+    height: 34em;
+  }
+
 }
 
 
@@ -397,10 +405,10 @@ a:hover {
 
 
 @media only screen and (max-width: 525px) {
+
   .links-up {
     flex-direction: column;
   }
-
 
   .sections {
     font-size: 0.9em;
