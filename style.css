@@ -12,6 +12,7 @@ body {
   font-size: 1.1em;
   line-height: 22px;
   padding: 0;
+  text-align: justify;
 }
 
 h1 {
@@ -192,7 +193,6 @@ button:hover {
   transition: 0.5s;
 }
 
-
 a {
   text-decoration: none;
   font-size: 0.9em;
@@ -202,4 +202,184 @@ a {
 a:hover {
   color: #1B4543;
   transition: 0.5s;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .geeft-pres {
+    flex-direction: column;
+  }
+
+  .column-pres {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 0;
+    margin-top: 1em;
+  }
+
+  .bloc-app {
+    width: 50%;
+    margin-right: 0.5em;
+    height: 30em;
+    margin-bottom: 0;
+  }
+
+  .bloc-story {
+    width: 50%;
+    margin-left: 0.5em;
+    height: 30em;
+    margin-top: 0;
+  }
+
+  .demoday-pres {
+    flex-direction: column;
+    background-color: #FFF2E1;
+    align-items: center;
+    border-radius: 2em;
+    padding: 1.3em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+
+  .demoday-pres h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .demoday-vid {
+    border-radius: 2em;
+    box-shadow: none;
+    margin-left: 0;
+    border: #1B4543 solid 0.2em;
+  }
+
+  .bloc-demoday {
+    margin-top: 2em;
+    background-color: none;
+    border-radius: 0;
+    padding: 0;
+    min-height: 0;
+    width: 40em;
+    box-shadow: none;
+  }
+
+  .links-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .up-page {
+    height: 4em;
+  }
+
+  .up-page p {
+    padding-top: 20px;
+    font-size: 4em;
+  }
+
+  .sections {
+    font-size: 1em;
+    width: 6em;
+  }
+
+  .demo-vid {
+    width: 15em;
+    height: 571.37px;
+  }
+
+  .bloc-app {
+    height: 35em;
+  }
+
+  .bloc-story {
+    height: 35em;
+  }
+
+  .bloc-demoday {
+    width: 30em;
+  }
+
+  .bloc-nina {
+    width: 60%;
+  }
+
+  .infos-nina {
+    width: 30%;
+  }
+
+  .img-nina {
+    width: 10em;
+    height: 10em;
+  }
+
+  .links-down {
+    flex-direction: column;
+  }
+
+  button {
+    width: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 770px) {
+  .up-page {
+    height: 4em;
+  }
+
+  .up-page p {
+    padding-top: 20px;
+    font-size: 4em;
+  }
+
+  .sections {
+    font-size: 1em;
+    width: 6em;
+  }
+
+  .demo-vid {
+    width: 15em;
+    height: 571.37px;
+  }
+
+  .bloc-app {
+    height: 35em;
+  }
+
+  .bloc-story {
+    height: 35em;
+  }
+
+  .bloc-demoday {
+    width: 30em;
+  }
+
+  .bloc-nina {
+    width: 60%;
+  }
+
+  .infos-nina {
+    width: 30%;
+  }
+
+  .img-nina {
+    width: 10em;
+    height: 10em;
+  }
+
+  .links-down {
+    flex-direction: column;
+  }
+
+  button {
+    width: 80%;
+  }
+
 }
